@@ -1,0 +1,146 @@
+.Home-container{
+    margin: 3vh 0px 2vh 4vw;
+    display: flex;
+}
+.Details-container{
+ width: 70%;
+ justify-content: center;
+ align-items: center;
+}
+
+#role {
+    font-size: 24px; 
+}
+.objective-container{
+    margin: 5vh 7vh 3vh 0;
+}
+.obj-title{
+    font-size: 26px;
+}
+.obj-para{
+    text-indent: 5vh;
+    text-align: justify;
+}
+.Home-container .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.Image-container{
+    border-radius: 10%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+#profile{
+    height: 40vh;
+    width: 16vw;
+    margin-top: 5vh;
+    border-radius: 10%;
+}
+.Home-container .links{
+    margin  :4vh 12vw 2vh 2vw;
+}
+@media (max-width: 1440px) {
+    #profile{
+        height: 40vh;
+        width: 18vw;
+        box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+    .cv-down{
+        margin  :4vh 12vw 2vh 2vw;
+    }
+    .Home-container .links{
+        margin  :4vh 12vw 2vh 2vw;
+    }
+}
+@media (max-width: 1024px) {
+    #profile{
+        height: 40vh;
+        width: 20vw;
+        box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+    .cv-down{
+        margin  :4vh 10vw 2vh 2vw;
+    }
+    .Home-container .links{
+        margin  :4vh 10vw 2vh 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .Details-container{
+        justify-content: center;
+        align-items: center;
+       }
+    #profile{
+        height: 40vh;
+        width: 25vw;
+        box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+
+    #role {
+        font-size: 24px;
+    }
+    .obj-title{
+        font-size: 22px;
+    }
+    .cv-down{
+        margin  :4vh 10vw 2vh 2vw;
+    }
+    .Home-container .links{
+        margin  :4vh 10vw 2vh 6vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .Home-container{
+       display: block;
+    }
+    .Details-container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+       }
+    #profile{
+        height: 45vh;
+        width: 60vw;
+       margin-left: 14vw;
+       box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+
+    #role {
+        font-size: 20px;
+    }
+    .obj-title{
+        font-size: 18px;
+    }
+    .cv-down{
+        margin  :4vh 0vw 2vh 2vw;
+    }
+    .Home-container .links{
+        display: block;
+        margin  :4vh 0vw 2vh 30vw;
+        width: 100%;
+        display: flex;
+        gap: 15;
+    }
+}
+@media (max-width: 375px) {
+    #profile{
+        height: 40vh;
+        width: 57vw;
+       margin-left: 14vw;
+       box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+}
+@media (max-width: 320px) {
+    #profile{
+        height: 40svh;
+        width: 60vw;
+       margin-left: 14vw;
+       box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+}
