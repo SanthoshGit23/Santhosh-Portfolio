@@ -1,0 +1,37 @@
+.contact-container{
+    margin: 5vh 0vh 2vh 4vw;
+    display: flex;
+}
+.contact{
+    width: 50vw;
+}
+.contact-img{
+    width: 50vw;
+}
+.contact-img img{
+    width: 20vw;
+    height: 38vh;
+    margin: 10vh 10%;
+}
+.contact-container li{
+    display: flex;
+    align-items: center;
+    gap:2vw;
+    margin-top: 2vh;
+}
+@media (max-width: 425px) {
+    .contact-container{
+        display: block;
+    }
+    .contact-img img{
+        width: 50vw;
+        height: 38vh;
+        margin: 0vh 0vw 0vh 20vw;
+    }
+    .contact{
+        width: 100vw;
+    }
+    .contact-img{
+        width: 100vw;
+    }
+}
